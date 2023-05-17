@@ -1,0 +1,32 @@
+TYPESCRIPT.
+0. Para instalarlo en la maquiuna: npm install -g typescript
+1. Typescript es un lenguaje de programacion que extiende javascript con nuevas funcionalidades y una sintaxis nueva
+2. Cuando escribimos Typescript los navegadores no entienden typescript, por lo que hay que compilarlo para que los
+navegadores lo puedan interpretar en javascript.
+3. Nos permite usar tipos estrictos (strict types): esto quiere decir que si por ejemplo
+definimos un variable de tipo boolean
+al principio no podemos cambiar su contenido pues esto generara un error.
+4. Permite el uso de arrow functions, const, let, destructuring, etc...
+5. Podemos usar otras caracteristicas que no estan disponbibles en el lenguaje: generics, interfaces, tuples, etc...
+
+COMPILAR TYPESCRIPT
+1. instalamos npm install -g live-server para poder server el sitio en un server local
+2. luego vamos a la terminal y nos situamos en la raiz del proyecto, luego escribimos en terminal
+tsc archivoOriginal.ts archivoSalida.js
+osea: tsc sandbox.ts sandbox.js
+Con el metodo anterior cada vez que guardemos el archivom, tendremos que compilarlo.
+Para no tener que compilar el archiv cada vez que guardamos,
+3. Para compilarlo siempre que guardamos: tsc archivo.ts -w
+
+para generar un archivo ts.config
+escribimos en consola tsc --init  
+para compilar y observar tsc -w
+voy aqui - TypeScript Tutorial #19 - Enums
+https://www.youtube.com/watch?v=r8G7-hQG07o&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=20&ab_channel=TheNetNinja
+
+16 mayo 2023
+Estudiar TS de aqui https://www.youtube.com/watch?v=r8G7-hQG07o&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=21&ab_channel=TheNetNinja
+
+17 mayo 2023
+Terminar los videos que me faltan del TheNetNinja con typescript
+pasar lo que se hizo de google maps en environs-admin a TS
